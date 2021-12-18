@@ -13,7 +13,7 @@ jobs:
         uses: Sorrowfall/Resource-Packager@main
         with:
           filename: MyPack # Change this for a different Resource Pack name
-          items: > # Change these depending on what folders you're using
+          items: | # Change these depending on what folders you're using
             pack_data
             pack_textures
           gen-sha1: false
